@@ -1,0 +1,43 @@
+[ {
+  "id" : 1,
+  "username" : "user",
+  "password" : "$2a$12$a5uMRm0MNoSWZmZ3c1ZsYeDppRyTxorA54Ubmp3ShZTOwaUKIvOku",
+  "role" : "USER",
+  "listeCategories" : null
+}, {
+  "id" : 2,
+  "username" : "admin",
+  "password" : "$2a$12$5Imjk1at5PVBS3CyKSXBKOJu2pdlbGQxFJB79UBA6CwrAPRpw6f4K",
+  "role" : "ADMIN",
+  "listeCategories" : null
+}, {
+  "id" : 3,
+  "username" : "yous",
+  "password" : "$2a$10$HVBzEuGpctyTBxD7PaqEfehy3WtQDF8K1UgE5PFFAarRDI6ucLo5S",
+  "role" : "USER",
+  "listeCategories" : null
+}, {
+  "id" : 4,
+  "username" : "test",
+  "password" : "$2a$10$qGP0HZE0IEve0oPLZgDO.OqfpG/UXr0x523V99Ni3yZQYIpOLWEeq",
+  "role" : "USER",
+  "listeCategories" : null
+}, {
+  "id" : 5,
+  "username" : "a",
+  "password" : "$2a$10$K/MLTS48sHTA/nqezNuVoO6PVS8nLThku8Oyu.9gP/vtorRwDOXsS",
+  "role" : "USER",
+  "listeCategories" : null
+}, {
+  "id" : 6,
+  "username" : "q",
+  "password" : "$2a$10$FM/0N1.9J9MqpFYLeuTiT.ru0KqvgYpRHxBFf0INyZkLx3ks3lUbe",
+  "role" : "USER",
+  "listeCategories" : null
+}, {
+  "id" : 7,
+  "username" : "qq",
+  "password" : "$2a$10$SXIuD788ZPQrMw8XkjdR5uEWCP6PY.fUN3teor0sguXzX6iV6dznO",
+  "role" : "USER",
+  "listeCategories" : null
+} ]

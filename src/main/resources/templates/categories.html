@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Catégories List</title>
+</head>
+<body>
+	<h1>Catégories list</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+			<tr>
+		</thead>
+		<tbody>
+			<tr th:each="categorie: ${categories}">
+				<td><a th:href="@{/private/comment/getbycategoryid/{categoryId}(categoryId=${categorie.id})}"><span th:text="${categorie.name}" /></a></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

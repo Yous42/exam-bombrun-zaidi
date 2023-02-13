@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Comment by post</title>
+</head>
+<body>
+<table>
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>postId</th>
+				<th>Texte</th>
+				<th>Date Creation</th>
+				<th>UserName</th>
+				
+			<tr>
+		</thead>
+		<tbody>
+			<tr th:each="comment: ${comments}">
+				<td><span th:text="${comment.id}" /></td>
+				<td><span th:text="${comment.postId}" /></td>
+				<td><span th:text="${comment.texte}" /></td>
+				<td><span th:text="${comment.dateCreation}" /></td>
+				<td><span th:text="${comment.userName}" /></td>
+			
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

@@ -1,0 +1,19 @@
+[ {
+  "id" : 1,
+  "postId" : "1",
+  "texte" : "message JAVA",
+  "dateCreation" : 1676063763691,
+  "userName" : "admin"
+}, {
+  "id" : 2,
+  "postId" : "1",
+  "texte" : "message JAVA",
+  "dateCreation" : 1676068674076,
+  "userName" : "admin"
+}, {
+  "id" : 3,
+  "postId" : "2",
+  "texte" : "message Angular",
+  "dateCreation" : 1676068718191,
+  "userName" : "admin"
+} ]
